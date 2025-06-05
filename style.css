@@ -1,67 +1,64 @@
 
 body {
-  margin: 0;
-  font-family: 'Georgia', serif;
-  background: #f8f5f0;
-  color: #3b2f2f;
+    font-family: 'Georgia', serif;
+    background-color: #fdfaf6;
+    color: #111;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
 }
 
-.hero {
-  background: url('banner.jpg') center/cover no-repeat;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  position: relative;
+header, nav, main, footer {
+    padding: 2em;
+    max-width: 900px;
+    margin: auto;
 }
 
-.hero .overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 2em;
-  color: #fff;
+header {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
 }
 
-section {
-  padding: 3em 1.5em;
-  max-width: 800px;
-  margin: auto;
-  text-align: center;
+h1, h2, h3 {
+    font-weight: normal;
+    color: #111;
 }
 
-.button {
-  background: #800000;
-  color: #fff;
-  text-decoration: none;
-  padding: 0.8em 1.6em;
-  display: inline-block;
-  margin-top: 1em;
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+nav a {
+    margin: 0 1em;
+    font-size: 1.1em;
 }
 
 footer {
-  text-align: center;
-  padding: 2em;
-  font-size: 0.9em;
-  background: #eae0d5;
+    text-align: center;
+    font-size: 0.85em;
+    color: #555;
+    border-top: 1px solid #ddd;
+    margin-top: 3em;
+    padding-top: 2em;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+}
 
-@media screen and (max-width: 600px) {
-  .hero {
-    height: 60vh;
-  }
-
-  .hero .overlay {
-    padding: 1em;
-    font-size: 0.9em;
-  }
-
-  section {
-    padding: 2em 1em;
-  }
-
-  .button {
-    padding: 0.6em 1.2em;
-    font-size: 0.9em;
-  }
+.section {
+    margin-bottom: 3em;
 }
