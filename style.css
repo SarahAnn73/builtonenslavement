@@ -44,3 +44,24 @@ footer {
   font-size: 0.9em;
   background: #eae0d5;
 }
+
+
+@media screen and (max-width: 600px) {
+  .hero {
+    height: 60vh;
+  }
+
+  .hero .overlay {
+    padding: 1em;
+    font-size: 0.9em;
+  }
+
+  section {
+    padding: 2em 1em;
+  }
+
+  .button {
+    padding: 0.6em 1.2em;
+    font-size: 0.9em;
+  }
+}
